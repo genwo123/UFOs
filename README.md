@@ -1,13 +1,32 @@
 # 프로젝트 정보
 <a><img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white"></a>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white">
+<img src="https://img.shields.io/badge/VSC-6fa8dc?style=for-the-badge&logo=VisualStudioCode&logoColor=blue">
+<img src="https://img.shields.io/badge/Node.js-6aa84f?style=for-the-badge&logo=Node.js&logoColor=green">
+<img src="https://img.shields.io/badge/MySQL-6fa8dc?style=for-the-badge&logo=MySql&logoColor=blue"></a>
 
-FrontEnd 개발자<br/>
+# 팀원 소개
+## PM
+PM : 김건우 <br/>
+부PM : 손원일 <br/>
+
+## FrontEnd 개발자
 팀장 : 김호진<br/>
 팀원 : 배준재,옥준서,모정환<br/>
 
-프로젝트 소개: 기존 축제 또는 행사에서의 사업자 등록 없이 계좌이체로 계산하는 시스템을 적은 인력으로도 운영할 수 있게 도와주는 편한 서비스
+## BackEnd 개발자
+팀장 : 김재영, 류태웅(DB 팀장)<br/>
+팀원 : 최일한<br/>
+
+# 프로젝트 소개
+## UFO's
+U - University<br/>
+F - Festival<br/>
+O - Order<br/>
+S - System<br/>
+
+기존 축제 또는 행사에서의 사업자 등록 없이 계좌이체로 계산하는 시스템을 적은 인력으로도 운영할 수 있게 도와주는 편한 서비스
 
 # 핵심 기능
 - 간편한 QR 코드 주문 시스템: 누구나 쉽게 이용할 수 있도록 웹/앱 대신 간편한 QR 코드 주문 시스템을 활용
@@ -26,20 +45,7 @@ FrontEnd 개발자<br/>
 
 
 
-## 프로젝트 화면 구조
-
-관리자
-- 로그인 / 회원가입
-- 주문 결제 관리
-- 메뉴 관리
-- 매출 관리
-- 테이블 QR 생성
-- 주방 디스플레이
-
-사용자
-- 주문화면
-- 대기 순서 디스플레이
-- 상세 주문 내역 확인
+## 프로젝트 화면 샘플
 
 # 화면구성
 
@@ -104,21 +110,53 @@ FrontEnd 개발자<br/>
 ### 상세 주문 내역 확인
 <img src="https://github.com/hojin535/ufo-front/assets/123153695/c258047f-9c2f-4b60-acc9-bd82394de1a9"  width="200" height="400"/>
 
-## 개발 환경
+## 사용 기술
+### 공통
+- Visual Studio Code: 통합 개발 환경(IDE)
+- Git, GitHub: 코드 관리 및 협업
 
-- HTML, CSS, React(v18.2.66): 사용 언어
-- MUI(Material-UI)(v5.15.20): 스타일링
-- Visual Studio Code,Vite(v5.2.0): 개발 도구 및 IDE
-- Git, GitHub: 버전 관리 시스템
-- npm(v20.11.1): 패키지 매니저
-- ESLint, Prettier  기타 도구
-- Firebase(v10.12.2): 사진DB 연동을 위한 라이브러리
-- axios(v,1,7,2): 서버 통신용 라이브러리
-- react-qr-code (v2.0.13): 테이블 QR코드 생성용 라이브러리
-- jszip (v3.10.1): QR코드 사진 압축용 라이브러리
-- file-saver(v2.0.5):압축파일 파일 저장용 라이브러리
-- react-device-detect(v2.2.3): 적응형 페이지를 위한 사용자 기기인식 라이브러리
-- react-router-dom(v6.22.3): 클라이언트 측 라우팅을 위한 라이브러리
+### Frontend
+개발 도구 및 IDE
+- Vite(v5.2.0): 개발 서버 및 번들러
+
+패키지 매니저
+- npm(v20.11.1): JavaScript 패키지 관리자
+
+기타 도구
+- ESLint: JavaScript 코드 스타일 검사 도구
+- Prettier: 코드 포맷터
+
+### Backend
+패키지 매니저
+- npm: Node.js 패키지 관리자
+
+런타임 환경
+- Node.js: JavaScript 런타임 환경
+
+### DB
+데이터베이스 관리 도구
+- MySQL Workbench: 데이터베이스 관리 도구.
+
+
+
+## 사용 라이브러리
+### 프론트엔드 관련
+- React(v18.2.66): 프론트엔드 개발을 위한 라이브러리
+- Material-UI(v5.15.20): UI 스타일링 컴포넌트 라이브러리
+- Vite(v5.2.0): 개발 서버 및 번들러
+- react-router-dom(v6.22.3): 클라이언트 측 라우팅
+- react-qr-code(v2.0.13): QR 코드 생성
+- react-device-detect(v2.2.3): 사용자 기기 인식
+
+### 백엔드 관련
+- Node.js 패키지:
+- Express.js: 웹 서버 구현을 위한 라이브러리
+- Socket.IO: 실시간 양방향 통신
+- axios(v1.7.2): 서버 통신용 라이브러리
+
+### 보안 및 코드 품질 도구
+- ESLint: JavaScript 코드 스타일 검사 도구
+- Prettier: 코드 포맷터.
 
 ## 시작 가이드
 설치 필요
