@@ -43,59 +43,67 @@ S - System<br/>
 - 데이터 기반 의사 결정: 주문 데이터 분석을 통해 메뉴 인기, 운영 패턴 등을 파악하여 데이터 기반 의사 결정을 지원
 - 환경 친화: 종이 영수증 발급 없이 모바일 기반 주문 및 결제 시스템으로 환경 보호에 기여
 
-# 화면구성
 
+
+```markdown
+# 화면구성
 ## 관리자 데스크톱
 ### 로그인 / 회원가입 / 개인정보 수정
-![관리자로그인](./image/모바일 매뉴 주가.png)
-![관리자 개인정보 수정](./image/관리자매뉴동록.png)
+![관리자로그인](./image/관리자로그인.png)
+![관리자 개인정보 수정](./image/관리자개인정보수정.png)
 
 ### 주문 결제 관리
-![관리자 메인 메뉴](./image/고객 메뉴 주문 이후.png)
+![관리자 메인 메뉴](./image/관리자메인메뉴.png)
 
 ### 메뉴 관리
-![관리자메뉴 등록](./image/고객 주문완료 화면.png)
-![관리자 메뉴 추가](./image/고객 주문화면.png)
+![관리자메뉴 등록](./image/관리자메뉴등록.png)
+![관리자 메뉴 추가](./image/관리자메뉴추가.png)
 
 ### 매출 관리
-![관리자 매출 로그](./image/관리자매뉴로그인.png)
+![관리자 매출 로그](./image/관리자매출로그.png)
 
 ### 테이블 QR 생성
-![QR 생성기1](./image/QR 생성기1.png)
-![QR 생성기2](./image/QR 생성기2.png)
+![QR 생성기1](./image/QR생성기1.png)
+![QR 생성기2](./image/QR생성기2.png)
 
 ### QR 생성시
-![QR 생성 과정](./image/QR 생성 과정.png)
-![QR생성과정2](./image/QR 생성과정 3.png)
-![QR 생성과정 3](./image/QR생성과정2.png)
+![QR 생성 과정](./image/QR생성과정.png)
+![QR생성과정2](./image/QR생성과정2.png)
+![QR 생성과정 3](./image/QR생성과정3.png)
 ![QR 예시](./image/QR예시.png)
 
 ## 관리자 모바일
 ### 모바일 접속 메인
-<img src="./image/모바일 로그인.png" width="200" height="400">
+<img src="./image/모바일로그인.png" width="200" height="400">
 
 ### 주방 디스플레이
-<img src="./image/주방 오더 화면.png" width="200" height="400">
+<img src="./image/주방디스플레이.png" width="200" height="400">
 
 ### 모바일 매출 확인
-<img src="./image/모바일관리자 매출 화면1.png" width="200" height="400">
-<img src="./image/모바일관리자매출화면2.png" width="200" height="400">
+<img src="./image/모바일매출확인1.png" width="200" height="400">
+<img src="./image/모바일매출확인2.png" width="200" height="400">
 
 ## 사용자화면
 ### 메인화면
-<img src="./image/고객 명세서.png" width="200" height="400">
+<img src="./image/고객메인화면.png" width="200" height="400">
 
 ### 주문화면
-<img src="./image/고객 메뉴 주문 화면.png" width="200" height="400">
-<img src="./image/고객 오더 확인 화면.png" width="200" height="400">
+<img src="./image/고객주문화면1.png" width="200" height="400">
+<img src="./image/고객주문화면2.png" width="200" height="400">
 
 ### 대기 순서 디스플레이
-<img src="./image/관리자개인정보 수정.png" width="200" height="400">
+<img src="./image/고객대기화면.png" width="200" height="400">
 
 ### 상세 주문 내역 확인
-<img src="./image/고객 주문 확인.png" width="200" height="400">
-<img src="./image/관리자메뉴등록.png" width="200" height="400">
-<img src="./image/관리자매출화면.png" width="200" height="400">
+<img src="./image/고객주문확인.png" width="200" height="400">
+<img src="./image/고객주문완료.png" width="200" height="400">
+<img src="./image/고객명세서.png" width="200" height="400">
+```
+
+이렇게 깔끔하게 정리했습니다. 이제 image 폴더에 있는 파일명들과 매칭이 되도록 했습니다.
+
+
+
 # 사용 기술
 ## 공통
 - Visual Studio Code: 통합 개발 환경(IDE)
