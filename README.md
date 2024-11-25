@@ -98,9 +98,10 @@ S - System<br/>
 
 
 ### 상세 주문 내역 확인
+<div>
 <img src="./image/고객%20메뉴%20주문%20이후.png" width="200" height="400">
 <img src="./image/고객%20명세서.png" width="200" height="400">
-
+</div>
 
 
 # 사용 기술
