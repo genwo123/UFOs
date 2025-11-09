@@ -7,6 +7,8 @@
 <img src="https://img.shields.io/badge/Node.js-6aa84f?style=for-the-badge&logo=Node.js&logoColor=green">
 <img src="https://img.shields.io/badge/MySQL-6fa8dc?style=for-the-badge&logo=MySql&logoColor=blue"></a>
 
+> 📚 **[상세 문서 보기](./docs/System-logic.md)** - 시스템 로직 및 아키텍처 설계 문서
+
 # 팀원 소개
 ## PM
 PM : 김건우 <br/>
